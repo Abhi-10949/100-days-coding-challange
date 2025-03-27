@@ -25,6 +25,6 @@ I have taken up the challenge to code every day for the next **100 days** and wi
 ## 📌 Connect with Me
 If you have any suggestions or want to discuss a problem, feel free to connect:
 - 💼 [LinkedIn](https://www.linkedin.com/in/abhishek-kumar-bio/)   
-- 📧 Email: abhi777ksingh@example.com
+- 📧 Email: abhi777ksingh@gmail.com
 
 Happy Coding! 🚀🎯
