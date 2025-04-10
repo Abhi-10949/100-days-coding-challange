@@ -20,12 +20,26 @@ public class J1_3SUM {
                 int sum = nums[i]+nums[left]+nums[right];
 
                 if(sum == 0){
-                    result.add(Arrays.asList(nums[i], nums[left], nums[right])); 
+                    result.add(Arrays.asList(nums[i], nums[left], nums[right]));
+                    // skipping the duplicates
+                    
+                    while(left<right && nums[left]==nums[left+1]) left++;
+                    while(left<right && nums[right]==nums[right-1]) right--;
+
+                    left++;
+                    right--;
+                } else if(sum < 0){
+                    left++;
+                } else{
+                    right--;
                 }
             }
         }
+        return result;
     }
     public static void main(String[] args) {
         int nums[] = {-1,0,1,2,-1,-4};
+        J1_3SUM obj = new J1_3SUM();
+        System.out.println(obj.threeSum(nums));
     }
 }
