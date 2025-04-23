@@ -1,5 +1,3 @@
-
-
 public class J1_TrappingRainWater {
 
 
