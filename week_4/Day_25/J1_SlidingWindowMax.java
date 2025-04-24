@@ -28,7 +28,6 @@ public class J1_SlidingWindowMax {
                 result[i - k + 1] = nums[deque.peek()];
             }
         }
-
         return result;
     }
 
