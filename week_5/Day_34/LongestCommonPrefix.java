@@ -1,8 +1,6 @@
 
 import java.util.Arrays;
 
-
-
 public class LongestCommonPrefix {
     public static String longestCommoString(String []strs){
         if(strs == null ||strs.length == 0) return "";
