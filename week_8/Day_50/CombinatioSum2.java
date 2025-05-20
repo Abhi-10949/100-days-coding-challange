@@ -35,5 +35,4 @@ public class CombinatioSum2 {
         List<List<Integer>> result = obj.combinationSum2(candidates, target );
         System.out.println(result);
     }
-    
 }
