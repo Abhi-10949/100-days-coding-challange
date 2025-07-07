@@ -4,8 +4,7 @@ const maxEvents = events => {
 
     // Find the latest end day
     const maxDay = events.at(-1)[1];
-
-    // Initialize union-find (next available day)
+    
     const nextDay = new Array(maxDay + 2).fill(0).map((_, i) => i);
 
     const search = day => {
